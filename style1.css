@@ -35,27 +35,15 @@ padding: 0;
     height: 600px;
     display: flex;
     margin-top: 1rem;
-    position: relative;
+  
     
    
 }
 
 .cool{
-    
-    
-    margin-top: -9rem;
-    color: white;
-     margin-left: 2rem;
-     margin-right: 6rem;
-    text-align: center;
-    justify-content:center;
-    position: absolute;
-    
-    
-   
- 
-    
+    margin-top:-5rem;
 }
+
 .cool h2{
     text-align: center;
     font-size: 30px;
@@ -74,14 +62,13 @@ padding: 0;
 .center{
     color:#CE0033;
     background-color: white;
-    width: 200px;
-    height: 50px;
+   display: flex;
    border: 1px white solid;
-   border-radius:10px;
-   font-weight: bolder;
-   margin-left: -3rem;
+   border-radius:50px;
+   font-size: 24px;
    margin-bottom: 1rem;
-   font-size:24px;
+
+   font-weight: bold;
 
 }
 .dangerr{
@@ -97,7 +84,7 @@ width: 1000px;
    
  
     position: relative;
-    margin-top: 18rem !important;
+    margin-top: 5rem !important;
    
 }
 .text{
@@ -164,32 +151,19 @@ width: 1000px;
 .pied{
         background-color: #CE0033;
         color: white; 
-        justify-content: center;
         margin-top:1rem;
         width:100%; 
         margin:0;
 }
 .pied1{
   
-      width:100%;
+    
       text-align:left;
      
 }
 .pied2{
-    width:100%;
+    
     
      text-align:right;
      
-}
-@media only screen and (max-width:700px){
-    .img-container{
-        display:none;
-    }
-    .cool{
-        
-    color: white;
-    display: block;
-   
-    position: none;
-    }
 }
