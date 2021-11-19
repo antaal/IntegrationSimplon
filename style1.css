@@ -28,51 +28,11 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #fff;
-}
 
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid black;
-  border-top-color: #e2eefd;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
-}
 
-@-webkit-keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 #header #navbar li{
     color: black !important;
 }
@@ -488,7 +448,7 @@ width: 1000px;
 
 }
 .partenaires{
-    
+    transform: translate(-50%, -50%);
     width:100%;
 }
 
@@ -532,7 +492,9 @@ width: 1000px;
     margin-top: 5rem;
 }
 
-
+/*----------------------------
+Footer
+--------------------------------*/
 .page-footer{
     background-image: url(./images/veille.png);
    
@@ -545,7 +507,7 @@ width: 1000px;
 .pied{
         background-color: #CE0033;
         color: white; 
-        margin-top:1rem;
+       
         width:100%; 
         margin:0;
 }
