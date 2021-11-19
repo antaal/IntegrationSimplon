@@ -55,9 +55,9 @@ body {
 font-family: Nunito Sans;
 font-style: normal;
 font-weight: 900;
-font-size: 48px;
+font-size: 34px;
 line-height: 45px;
-margin-left: 45%;
+
 
 color: #CE0033;
 }
@@ -80,10 +80,11 @@ color: #CE0033;
 
   
 }
-.slide{
-  margin-left:20%;
-  margin-right:50%;
-}
+
+    
+      
+
+
 .center{
     color:#CE0033;
     background-color: white;
@@ -180,7 +181,7 @@ line-height: 41px;
 color: #000000;
 }
 .carte{
-    width: 50%;
+    width: 100%;
     padding: 5px;
     
     background: #FFFFFF;
